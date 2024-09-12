@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
+    <title>Zenith</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Styles.css">
+    
+    <!-- Link to Google Fonts for Poppins font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background div -->
+    <div class="background">
+        <!-- Header section with navigation -->
+        <header>
+            <nav>
+                <!-- Navigation links -->
+                <ul class="nav-links">
+                    <li><a href="Main Page.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Form.html">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <!-- Form for subscribing to the newsletter -->
+    <form action="action_page.php">
+        <!-- First container for the form header and description -->
+        <div class="container">
+            <h2>Subscribe to my Newsletter</h2>
+        </div>
+
+        <!-- Second container for input fields and checkbox with white background -->
+        <div class="container" style="background-color:white">
+            <!-- Input field for name -->
+            <input type="text" placeholder="Name" name="name" required><br>
+            <!-- Input field for email address -->
+            <input type="text" placeholder="Email address" name="Email" required><br>
+            <!-- Input field for sending a message -->
+            <input type="text" placeholder="Send me a message" name="message"><br>
+            <!-- Checkbox for subscribing to the daily newsletter -->
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+        </div>
+
+        <!-- Third container for the submit button -->
+        <div class="container">
+            <!-- Submit button -->
+            <input type="submit" value="Subscribe">
+        </div>
+    </form>
+    
+    <!-- Div for the newsletter section -->
+    <div class="newsletter">
+        <aside>
+            <!-- Image related to the newsletter -->
+            <img src="D:\IIT\2nd Year\Sem 1\5COSCO15C Advanced Client-side Development\CW\CW\Images\newsletter-erstellen-t.jpg" alt="newsletter" height="200" width="200">
+        </aside>
+    </div>
+    <br>
+    <br>
+    
+    <!-- Footer section -->
+    <footer>
+        <!-- Social media links -->
+        <div class="social">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://lk.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <br>
+        </div>
+        <!-- Copyright information -->
+        <p>Copyright © Zenith Fernando</p>
+    </footer>
+</body>
+</html>
